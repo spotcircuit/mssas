@@ -1,0 +1,80 @@
+export const sampleReviews = [
+  {
+    platform: 'reddit',
+    title: "Great experience at Serenity Med Spa in Boston, MA",
+    text: "Had an amazing facial treatment at Serenity Med Spa in Boston, MA. Staff was very professional and the facility was clean and modern. The atmosphere was so relaxing.",
+    date: new Date().toISOString(),
+    userId: "user123",
+    subreddit: "Esthetics",
+    spaName: "Serenity Med Spa",
+    city: "Boston",
+    state: "MA",
+    category: "facility",
+    sentiment: "positive"
+  },
+  {
+    platform: 'reddit',
+    title: "Disappointed with pricing at Glow Medical Spa in Miami, FL",
+    text: "Visited Glow Medical Spa in Miami, FL. Prices were much higher than advertised. Not very transparent about costs and hidden fees.",
+    date: new Date().toISOString(),
+    userId: "user456",
+    subreddit: "Esthetics",
+    spaName: "Glow Medical Spa",
+    city: "Miami",
+    state: "FL",
+    category: "pricing",
+    sentiment: "negative"
+  },
+  {
+    platform: 'reddit',
+    title: "Booking issues at Radiance Med Spa in Austin, TX",
+    text: "Tried to schedule an appointment at Radiance Med Spa in Austin, TX but had to wait weeks. Communication was poor and they kept rescheduling.",
+    date: new Date().toISOString(),
+    userId: "user789",
+    subreddit: "Esthetics",
+    spaName: "Radiance Med Spa",
+    city: "Austin",
+    state: "TX",
+    category: "booking",
+    sentiment: "negative"
+  },
+  {
+    platform: 'reddit',
+    title: "Trust your esthetician at Pure Beauty Med Spa in Seattle, WA",
+    text: "Found a great medical spa in Seattle, WA. The staff at Pure Beauty Med Spa is knowledgeable and trustworthy. Treatment results were amazing.",
+    date: new Date().toISOString(),
+    userId: "user101",
+    subreddit: "Esthetics",
+    spaName: "Pure Beauty Med Spa",
+    city: "Seattle",
+    state: "WA",
+    category: "treatment",
+    sentiment: "positive"
+  },
+  {
+    platform: 'reddit',
+    title: "Great aftercare at Wellness Med Spa in Denver, CO",
+    text: "The aftercare support at Wellness Med Spa in Denver was exceptional. They provided detailed instructions and followed up regularly during recovery.",
+    date: new Date().toISOString(),
+    userId: "user102",
+    subreddit: "Esthetics",
+    spaName: "Wellness Med Spa",
+    city: "Denver",
+    state: "CO",
+    category: "aftercare",
+    sentiment: "positive"
+  },
+  {
+    platform: 'reddit',
+    title: "Amazing staff at Rejuvenate Med Spa in Portland, OR",
+    text: "The staff at Rejuvenate Med Spa in Portland were incredible. Very professional, knowledgeable, and made me feel comfortable throughout the procedure.",
+    date: new Date().toISOString(),
+    userId: "user103",
+    subreddit: "Esthetics",
+    spaName: "Rejuvenate Med Spa",
+    city: "Portland",
+    state: "OR",
+    category: "staff",
+    sentiment: "positive"
+  }
+];
